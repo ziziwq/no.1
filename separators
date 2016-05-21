@@ -1,0 +1,18 @@
+function thousands_separators(num) {
+  var num=prompt(please enter a number:"");
+  var a[n];
+  var i=0;j=0;
+  while(num>=1)
+  {a[i]=num%10;
+  num=num/10;
+  i++;}
+  n=i+1;
+  for(i=n-1;i>=0;i++)
+  {  prompt("a[i]");
+  j++;
+  if(j>3)
+  {prompt(",");
+j=0;}}
+}
+
+module.exports = thousands_separators;
